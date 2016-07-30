@@ -1,0 +1,27 @@
+增加--- git add 文件名
+
+删除--- git rm 文件名
+
+都需要---  git commit -m "信息"
+
+从服务器上同步内容----   git pull
+
+提交 -----    git push origin(分支名) master(分支名)
+
+新建一个分支并切换到该分支   ------  git branch -b 分支名
+
+初始化一个 Git 仓库，使用 git init 命令。
+
+git diff 顾名思义就是查看 difference，显示的格式正是 Unix 通用的 diff 格式
+
+版本控制系统肯定有某个命令可以告诉我们历史记录，在 Git 中，我们用 git log 命令查看
+
+https://github.com/zzz602902491/hello-world.git
+
+
+
+git config --global user.email 602920491@qq.com
+
+git config --global user.name 'zzz602902491'
+
+git remote set-url origin https://github.com/zzz602902491/hello-world.git
